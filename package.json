@@ -4,7 +4,7 @@
   "scripts": {
     "build": "grunt",
     "prepare": "npm run build",
-    "postinstall": "npm run prepare"
+    "postinstall": "grunt"
   },
   "main": "dist/snowplow",
   "dependencies": {
